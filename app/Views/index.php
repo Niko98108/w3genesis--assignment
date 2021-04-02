@@ -34,9 +34,7 @@
                         <li class="nav-item">
                             <a class="nav-link" target="_blank" href="pages_contact_us.html">Contact Us</a>
                         </li>
-                        <!-- <li>
-                        <a class="nav-link" target="_blank" href="<?=base_url();?>/Login">Login</a>
-                        </li> -->
+                       
                     </ul>
                 </div>
             </div>
