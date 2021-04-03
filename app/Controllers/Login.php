@@ -5,7 +5,7 @@ class Login extends BaseController{
 	public function index(){
 		$session = session();
 	
-		var_dump($session->has('ORGID'));
+		// var_dump($session->has('ORGID'));
 		if($session->get("ORGID") == null){
 			echo view('organizerDashboard/login');
 		}else{
@@ -16,9 +16,9 @@ class Login extends BaseController{
     }
     
     public function Submit(){
-		$session = session();
-		// $session->set("ORGID" ,1);
-		var_dump($session->has('ORGID'));
+		// $session = session();
+		// // $session->set("ORGID" ,1);
+		// var_dump($session->has('ORGID'));
 		
 			$email = $this->request->getPost('email');
 			$password = $this->request->getPost('password');

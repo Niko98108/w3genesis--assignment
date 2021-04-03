@@ -32,7 +32,7 @@
                             <a class="nav-link" href="<?=base_url();?>/Login">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="pages_contact_us.html">Contact Us</a>
+                            <a class="nav-link" target="_blank" href="pages_contact_us.html">Share</a>
                         </li>
                        
                     </ul>
