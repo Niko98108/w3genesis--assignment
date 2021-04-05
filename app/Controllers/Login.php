@@ -43,6 +43,7 @@ class Login extends BaseController{
 			else{
 
 				//Login Failed
+				$session = session();
 				$session->setFlashdata("msg" , "Incorrect Email or Password. Please Try Again. Thank You.");
 				return redirect()->to("/Login");
 

@@ -32,7 +32,7 @@
                             <a class="nav-link" href="<?=base_url();?>/Login">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="pages_contact_us.html">Share</a>
+                            <a class="nav-link" href="" data-toggle="modal" data-target="#exampleModalCenter" >Share</a>
                         </li>
                        
                     </ul>
@@ -221,6 +221,37 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" style="display: none;" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Share Register Form</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class= "row">
+                                                        <div class="col">
+                                                            <a href="https://www.facebook.com/sharer/sharer.php?u="target="_blank"> <img src="<?=base_url();?>/assets/img/social/facebook.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <div class="col">
+        <!-- instagram eke link eka danna sir -->           <a href="#" target="_blank"> <img src="<?=base_url();?>/assets/img/social/instagram.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=" target="_blank"> <img src="<?=base_url();?>/assets/img/social/linkedin.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a href="https://twitter.com/share?url=&text=&hashtags=" target="_blank"> <img src="<?=base_url();?>/assets/img/social/twitter.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a href="https://api.whatsapp.com/send?text=&url="target="_blank"> <img src="<?=base_url();?>/assets/img/social/whatsapp.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a href=""> <img src="<?=base_url();?>/assets/img/social/youtube.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <script src="assets/js/libs/jquery-3.1.1.min.js"></script>

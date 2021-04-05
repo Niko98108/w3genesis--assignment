@@ -70,6 +70,7 @@ class OrgernizerDashboard extends BaseController{
                     'eventDesc' => $_POST['description'],
                     'image' => $thumbName,
                     'thumb' => $thumbName,
+                    'organizerID' => $session->get("ORGID"),
                     'date' => date('Y-m-d'),
                     
                 ];
