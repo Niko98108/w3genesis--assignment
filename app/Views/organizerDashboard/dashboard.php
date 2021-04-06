@@ -43,10 +43,13 @@
                                 <div class="col-4">
                                      <div class="card component-card_1">
                                          <div class="card-body">
-                                    
+                                        
                                                 <h5 class="card-title">Create Event</h5>
                                                 <p class="card-text">
                                                 <a href ="<?=base_url();?>/OrgernizerDashboard/createEvent"><button class="btn btn-info  mb-4 mr-2 btn-sm" >Create</button></a>
+                                                </p>
+                                                <p class="card-text">
+                                                <a href ="<?=base_url();?>/OrgernizerDashboard/createEvent"><button class="btn btn-dark  mb-4 mr-2 btn-sm" >Update</button></a>
                                                 </p>
                                         </div>
                                     </div>
@@ -55,8 +58,12 @@
                                 <div class="col-4">
                                      <div class="card component-card_1">
                                         <div class="card-body">
+                                        <div class="counter-content">
+                                                     <h1 class="display-4"><?=$users;?></h1>
+                                                </div>
+                                                    <p class="ico-counter-text">Users</p>
                                           
-                                                <h5 class="card-title">Register Users </h5>
+                                                <h5 class="card-title">Register Users</h5>
                                                 <p class="card-text">
                                                 <a href ="<?=base_url();?>/OrgernizerDashboard/Users"><button class="btn btn-info  mb-4 mr-2 btn-sm" >View</button></a>
                                                 </p>
@@ -66,6 +73,10 @@
                                 <div class="col-4">
                                      <div class="card component-card_1">
                                         <div class="card-body">
+                                        <div class="counter-content">
+                                                     <h1 class="display-4"><?=$events;?></h1>
+                                                </div>
+                                                    <p class="ico-counter-text">Events</p>
                                          
                                                 <h5 class="card-title">All Events</h5>
                                                 <p class="card-text">

@@ -235,7 +235,7 @@
                                                             <a href="https://www.facebook.com/sharer/sharer.php?u="target="_blank"> <img src="<?=base_url();?>/assets/img/social/facebook.png" alt="facebook" style="width:60px;"></a>
                                                         </div>
                                                         <div class="col">
-        <!-- instagram eke link eka danna sir -->           <a href="#" target="_blank"> <img src="<?=base_url();?>/assets/img/social/instagram.png" alt="facebook" style="width:60px;"></a>
+                                                          <a href="#" target="_blank"> <img src="<?=base_url();?>/assets/img/social/instagram.png" alt="facebook" style="width:60px;"></a>
                                                         </div>
                                                         <div class="col">
                                                             <a href="https://www.linkedin.com/shareArticle?mini=true&url=" target="_blank"> <img src="<?=base_url();?>/assets/img/social/linkedin.png" alt="facebook" style="width:60px;"></a>

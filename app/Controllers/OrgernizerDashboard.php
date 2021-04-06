@@ -13,9 +13,26 @@ class OrgernizerDashboard extends BaseController{
                 'title' => 'Dashboard',
                 'baseurl' => 'organizerDashboard'
             ];
+            //statistic of system
+            $db = db_connect();
+            //events count
+            $sql = "SELECT COALESCE(COUNT(eventID)) as events from events";
+            $query = $db->query($sql);
+            $rows = $query->getResultArray();
+            $data['events'] = $rows[0]['events'];
+            
+
+       
+
+            //user count
+            $sql = "SELECT COALESCE(COUNT(userID)) as users from user";
+            $query = $db->query($sql);
+            $rows = $query->getResultArray();
+            $data['users'] = $rows[0]['users'];
+            
         
             echo view('templates/header' , $headercontents);
-            echo view('organizerDashboard/dashboard');
+            echo view('organizerDashboard/dashboard',$data);
             echo view('templates/footer' , $headercontents);
         }
 
