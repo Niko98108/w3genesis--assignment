@@ -41,7 +41,7 @@
 
                             <div class="row">
                                 <div class="col-4">
-                                     <div class="card component-card_1">
+                                     <div class="infobox-1">
                                          <div class="card-body">
                                         
                                                 <h5 class="card-title">Create Event</h5>
@@ -49,7 +49,7 @@
                                                 <a href ="<?=base_url();?>/OrgernizerDashboard/createEvent"><button class="btn btn-info  mb-4 mr-2 btn-sm" >Create</button></a>
                                                 </p>
                                                 <p class="card-text">
-                                                <a href ="<?=base_url();?>/OrgernizerDashboard/createEvent"><button class="btn btn-dark  mb-4 mr-2 btn-sm" >Update</button></a>
+                                                <a href ="<?=base_url();?>/OrgernizerDashboard/updateEvent"><button class="btn btn-dark  mb-4 mr-2 btn-sm" >Update</button></a>
                                                 </p>
                                         </div>
                                     </div>
@@ -91,10 +91,6 @@
                         </div>
                     </div>
                 </div>
-
-
-                <!-- CONTENT AREA --> 
-
 
                
                     </div>

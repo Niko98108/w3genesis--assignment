@@ -55,6 +55,7 @@ class OrgernizerDashboard extends BaseController{
             echo view('templates/footer' , $headercontents);
 
         }    
+        
 
 
     }
@@ -189,5 +190,24 @@ class OrgernizerDashboard extends BaseController{
 
 
     }
+    public function updateEvent(){
+        $session = session();
+		if($session->get("ORGID") == null){
+			return redirect()->to("/Login");
+		}else{
 
+            $headercontents =[
+                'title' => 'Update Event',
+                'baseurl' => 'organizerDashboard'
+            ];
+        
+            echo view('templates/header' , $headercontents);
+            echo view('organizerDashboard/updateEvent');
+            echo view('templates/footer' , $headercontents);
+
+        }    
+        
+
+
+    }
 }
