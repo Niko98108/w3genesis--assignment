@@ -122,9 +122,7 @@ class OrgernizerDashboard extends BaseController{
                 'baseurl' => 'organizerDashboard'
             ];
             $db = db_connect();
-            $sql = "SELECT user.* ,events.eventName 
-            FROM user , events 
-            WHERE user.eventID = events.eventID";
+            $sql = "SELECT user.* ,events.* FROM user , events WHERE user.eventID = events.eventID";
     
     
             $query = $db->query($sql);

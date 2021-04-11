@@ -51,6 +51,10 @@
                                                 <p class="card-text">
                                                 <a href ="<?=base_url();?>/OrgernizerDashboard/updateEvent"><button class="btn btn-dark  mb-4 mr-2 btn-sm" >Update</button></a>
                                                 </p>
+                                                <p class="card-text">
+                                                <a href =""  data-toggle="modal" data-target="#exampleModalCenter"><button class="btn btn-success  mb-4 mr-2 btn-sm" >Share</button></a>
+                                                <a class="nav-link" href="" data-toggle="modal" data-target="#exampleModalCenter" >Share</a>
+                                                </p>
                                         </div>
                                     </div>
                                 </div>
@@ -97,7 +101,60 @@
                 </div>
             </div>
 </div>       
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" style="display: none;" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Share Register Form</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class= "row">
+                                                        <div class="col">
+                                                            <a href="https://www.facebook.com/sharer/sharer.php?u="target="_blank"> <img src="<?=base_url();?>/assets/img/social/facebook.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <div class="col">
+                                                          <a href="#" target="_blank"> <img src="<?=base_url();?>/assets/img/social/instagram.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=" target="_blank"> <img src="<?=base_url();?>/assets/img/social/linkedin.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a href="https://twitter.com/share?url=&text=&hashtags=" target="_blank"> <img src="<?=base_url();?>/assets/img/social/twitter.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a href="https://api.whatsapp.com/send?text=&url="target="_blank"> <img src="<?=base_url();?>/assets/img/social/whatsapp.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a href=""> <img src="<?=base_url();?>/assets/img/social/youtube.png" alt="facebook" style="width:60px;"></a>
+                                                        </div>
+                                                        <br>
+                                                        <br>
+                                                        <hr>
+                                                      <div class ="form-row">
+                                                    </div>
+                                                       <div class="form-group col-sm-12">
+                                                         <label for="copylink">copy Link</label>
+                                                            <input type="text" name="link" value="" class="form-control" id="" readonly="readonly">
+                                                        </div>
+                                                     </div>
+                                                        <div>
+                                                        <button type="button" class="btn btn-primary mb-2 mr-2 btn-rounded">Copy Link</button>
+                                                        </div>
+                                                      </div>
+
 
                 <!-- CONTENT AREA -->
+
+                    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+    <script src="assets/js/pages/faq/faq.js"></script>
+
 
 
